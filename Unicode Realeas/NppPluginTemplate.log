@@ -1,0 +1,22 @@
+﻿Build started 28.08.2013 13:40:41.
+     1>Project "E:\Progg\NppFreePascal\Npp FreePascal Plugin Source\NppPluginTemplate.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Unicode Realeas\NppFreePascalPlugin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\DockingFeature /I.\ /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NPPPLUGINTEMPLATE_EXPORTS /D __STDC_WANT_SECURE_LIB__=0 /D _CRT_NONSTDC_NO_DEPRECATE /D _VC80_UPGRADE=0x0700 /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Unicode Realeas\\" /Fd"Unicode Realeas\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PluginDefinition.cpp
+         PluginDefinition.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\NppFreePascalPlugin.dll" /INCREMENTAL:NO /NOLOGO shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Unicode Realeas\NppFreePascalPlugin.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Progg\NppFreePascal\Npp FreePascal Plugin Source\bin\NppFreePascalPlugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\NppPluginTemplate.lib" /MACHINE:X86 /DLL "Unicode Realeas\NppPluginDemo.obj"
+         "Unicode Realeas\PluginDefinition.obj"
+            Creating library .\bin\NppPluginTemplate.lib and object .\bin\NppPluginTemplate.exp
+         NppPluginTemplate.vcxproj -> E:\Progg\NppFreePascal\Npp FreePascal Plugin Source\.\bin\NppFreePascalPlugin.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\bin\NppFreePascalPlugin.dll;#2" /manifest "Unicode Realeas\NppFreePascalPlugin.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Unicode Realeas\NppFreePascalPlugin.unsuccessfulbuild".
+         Touching "Unicode Realeas\NppFreePascalPlugin.lastbuildstate".
+     1>Done Building Project "E:\Progg\NppFreePascal\Npp FreePascal Plugin Source\NppPluginTemplate.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78
